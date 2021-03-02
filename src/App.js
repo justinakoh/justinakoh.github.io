@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
       <div className="App">
-        <div className="about-me">
+        <div className="slogan">
               <li class="item">Justina Koh</li>
               <li class="item">Producing #beautiful code since 2014</li>
           <body>
@@ -32,11 +32,17 @@ function App() {
             Organise Me
           </p>
           <p>
-            A place for you to brainstorm new ideas. Kanban style. 
+            A place for you to brainstorm new ideas. Kanban style.
           </p>
           </body>
         </div>
+        <div className="about-me">
+          <p>About Me</p>
+          <p>Currently, I am a final year honours student at Victoria University of Wellington. </p>
+          <p></p>
+        </div>
       </div>
+  //    Put in button for hectic goose mess
   );
 }
 
