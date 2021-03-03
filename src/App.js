@@ -3,20 +3,22 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <div className="name">
-                <p class="item">Justina Koh</p>
+            <div className="name item">
+                <p>Justina Koh</p>
             </div>
-            <div className="slogan">
-                <p class="item">Producing #beautiful code since 2014</p>
+            <div className="slogan item">
+                <p>Producing #beautiful code since 2014</p>
             </div>
             <div className="about-me">
-                <p>
-                    I'm a software engineer who is passionate about creating beautiful software that users love to
-                    use, and developers love to maintain.
-                    <br/><br/>
-                    Why? Because there is nothing worse than old, outdated software which is hard to use, hard to read,
-                    and hard to maintain.
-                </p>
+                <div className="description-text">
+                    <p>
+                        I'm a software engineer who is passionate about creating beautiful software that users love to
+                        use, and developers love to maintain.
+                        <br/><br/>
+                        Why? Because there is nothing worse than old, outdated software which is hard to use, hard to read,
+                        and hard to maintain.
+                    </p>
+                </div>
                 <div className="subtext">
                     <p>Find me on </p>
                     <a href="https://github.com/justinakoh" target="_blank" className="body-link twitter-link"
@@ -47,21 +49,20 @@ function App() {
                 </body>
             </div>
             <div className="about-me">
-                <p>About Me</p>
-                <p>
-                    Currently, I am a final year honours student at Victoria University of Wellington. I specialise in
-                    Software Engineering and have particular passion for Cybersecurity.
-                </p>
-                <p>
-                    I think that the best ideas are inspired by the things around us - the people around us, the nature
-                    around us.
-                    Something about the best ideas being simple and usable by everyone. Inspired by nature. Everything
-                    can somehow relate back.
-                </p>
-                <p>
-                    In my spare time I enjoy baking (put link here with pics of what I have baked), gardening and
-                    asdlkfjalksdfj
-                </p>
+                <p className="about-me header">About Me</p>
+                <div className="description-text">
+                    <p>
+                        Currently, I am a final-year honours student at Victoria University of Wellington. I specialise in
+                        Software Engineering and have particular passion for Cybersecurity.
+                    </p>
+                    <p>
+                        I think that the best ideas are inspired by the things around us - the people around us, the nature
+                        around us. To me, the best ideas are the simplest and most usable be everyone.
+                    </p>
+                    <p>
+                        When I'm not online, I enjoy baking, 
+                    </p>
+                </div>
             </div>
         </div>
         //    Put in button for hectic goose mess

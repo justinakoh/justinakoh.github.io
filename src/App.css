@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*list-style: none;*/
   justify-content: space-evenly;
 }
 
@@ -14,10 +13,16 @@
 }
 .name{
   align-self: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 .slogan{
   align-self: flex-end;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .about-me{
@@ -25,16 +30,31 @@
   font-size: 2em;
   justify-content: flex-start;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.description-text {
+  padding: 7em;
+  /*font-size: 2em;*/
+  justify-content: flex-start;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 .subtext{
   font-size: 50%;
+}
 
+.header{
+  /*align-self: flex-start;*/
 }
 
 .item{
   padding: 7em;
-  height: 50px;
+  /*height: 100%;*/
+  /*height: 50px;*/
   margin: 5px;
   font-weight: bold;
   font-size: 2em;
